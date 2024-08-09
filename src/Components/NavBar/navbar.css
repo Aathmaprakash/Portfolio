@@ -1,0 +1,51 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2c3e50; /* Dark Grayish Blue */
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    height: 80px;
+    width: auto;
+  }
+  
+  .desktopMenu {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .menuLink {
+    color: #1abc9c; /* Strong Cyan */
+    text-decoration: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .menuLink:hover {
+    color: #e74c3c; /* Soft Red */
+  }
+  
+  .desktopMenuButton {
+    background-color: #1abc9c; /* Strong Cyan */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .desktopMenuButton:hover {
+    background-color: #e74c3c; /* Soft Red */
+  }
+  
+  .desktopMenuIcon {
+    margin-right: 10px;
+    font-size: 20px; /* Adjust the size of the icon */
+    color: white; /* Ensure the icon color matches the text */
+  }
+  
